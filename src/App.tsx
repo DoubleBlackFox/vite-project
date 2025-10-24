@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home/Home'
 import Article from './pages/Article'
+import Filip from './pages/Filip'
 function App() {
   
 
@@ -13,6 +14,8 @@ function App() {
     <Home/>
     <Article heading="neco2" contetn="obsah2"/>
     <Article heading="neco" contetn="obsah"></Article>
+
+    <Filip></Filip>
     </>
   )
 }
